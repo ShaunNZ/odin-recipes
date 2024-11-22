@@ -25,8 +25,7 @@ body {
 #page {
     background-color: #dbd0ad;
     padding: 2%;
-    border-color: black;
-    border-style: solid;
+    border: 3px solid black;
     width: 900px;
     margin: auto;
     margin-top: 1%;
@@ -35,4 +34,17 @@ body {
 
 #recipe-text {
     width: 700px;
+}
+
+button {
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 3px solid black;
+    
+}
+
+button:hover {
+    transition-duration: 0.2s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
