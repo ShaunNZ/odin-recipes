@@ -36,7 +36,7 @@ body {
     width: 700px;
 }
 
-button.return {
+/* button.return {
     padding: 5px;
     padding-left: 25px;
     padding-right: 25px;
@@ -47,14 +47,18 @@ button.return {
 button.return:hover {
     transition-duration: 0.2s;
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
+} */
 
-button.recipe-listing {
+/* button.recipe-listing { */
+button {
     background-color: transparent;
+    text-decoration: underline;
     border: none;
 }
 
-button.recipe-listing:hover {
-    text-decoration: underline;
+/* button.recipe-listing:hover { */
+button:hover {
+    transition-duration: 0.2s;
     cursor: pointer;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
