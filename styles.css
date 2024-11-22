@@ -36,7 +36,7 @@ body {
     width: 700px;
 }
 
-button {
+button.return {
     padding: 5px;
     padding-left: 25px;
     padding-right: 25px;
@@ -44,7 +44,17 @@ button {
     
 }
 
-button:hover {
+button.return:hover {
     transition-duration: 0.2s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button.recipe-listing {
+    background-color: transparent;
+    border: none;
+}
+
+button.recipe-listing:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
