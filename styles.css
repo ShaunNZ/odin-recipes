@@ -17,3 +17,18 @@ h2 {
     font-size: 12px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+body {
+    background-color: #d6d6d6;
+}
+
+#page {
+    background-color: #dbd0ad;
+    padding: 2%;
+    border-color: black;
+    border-style: solid;
+    width: 900px;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
